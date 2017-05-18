@@ -1,6 +1,6 @@
 {
   "name": "swig",
-  "version": "1.4.2",
+  "version": "2.0.0",
   "description": "A simple, powerful, and extendable templating engine for node.js and browsers, similar to Django, Jinja2, and Twig.",
   "keywords": [
     "template",
@@ -14,34 +14,34 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/paularmstrong/swig.git"
+    "url": "http://github.com/freekrai/swig.git"
   },
-  "author": "Paul Armstrong <paul@paularmstrongdesigns.com>",
+  "author": "Roger Stringer <roger@datamcfly.com>",
   "dependencies": {
-    "uglify-js": "~2.4",
-    "optimist": "~0.6"
+    "crypto-browserify": "^3.11.0",
+    "markdown": "^0.5.0",
+    "optimist": "~0.6",
+    "taffydb": "^2.7.3",
+    "uglify-js": "~2.4"
   },
   "devDependencies": {
-    "lodash": "~1.3.1",
-    "express": "~3",
-    "nodelint": "~0.6",
-    "mocha": "1.12.0",
-    "expect.js": "~0.2",
-    "still": "0.0.7",
-    "less": "~1.4",
-    "mocha-phantomjs": "~3.1",
     "blanket": "~1.1",
-    "travis-cov": "~0.2",
-    "phantomjs": "~1.9.1",
     "browserify": "~2",
+    "expect.js": "~0.2",
+    "express": "~3",
     "file": "~0.2",
-    "jsdoc": "3.2.0"
+    "jsdoc": "^3.4.3",
+    "less": "~1.4",
+    "lodash": "~1.3.1",
+    "mocha": "1.12.0",
+    "mocha-phantomjs": "~3.1",
+    "nodelint": "~0.6",
+    "phantomjs": "~1.9.1",
+    "still": "0.0.7",
+    "travis-cov": "~0.2"
   },
   "license": "MIT",
   "main": "index",
-  "engines": {
-    "node": ">=0.10.0"
-  },
   "bin": {
     "swig": "./bin/swig.js"
   },
@@ -58,6 +58,6 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/paularmstrong/swig/issues"
+    "url": "https://github.com/freekrai/swig/issues"
   }
 }
